@@ -36,3 +36,97 @@ nav.navbar .nav-link.active{
 /************
 End Navbar
 *************/
+
+/************
+Carousel Part
+*************/
+header.header .carousel .carousel-control-prev,header.header .carousel .carousel-control-next{
+    background-color: #000000;
+    color: #FED501;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    top: 7%;
+    opacity: 1;
+    filter: drop-shadow(2px 3px 5px rgba(255, 255, 255, 0.219));
+}
+header.header .carousel .carousel-control-next{
+    right: 100px;
+}
+header.header .carousel .carousel-control-prev{
+    
+    right: 40px;
+}
+header.header  .FormLine {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    padding: 30px 20px;
+}
+header.header  .FormLine svg{
+    color:#FED501;
+    font-size: 20px;
+    margin-left: 20px ;
+}
+header.header .FormLine .smallText{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+header.header .FormLine input,header.header .FormLine select{
+    border: none;
+    padding: 0px auto !important;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: normal;
+    width:100%;
+}
+header.header .FormLine input::placeholder{
+    color: black;
+}
+header.header .nav-tabs .nav-link{
+    color: #FED501;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0px ;
+
+    border-top-right-radius: 0px;
+    border-top-left-radius: 20px;
+}
+header.header .nav-tabs .nav-link.active{
+    opacity: 1;
+}
+header.header .nav-tabs .nav-item:first-of-type .nav-link{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 20px;
+
+}
+
+.searchLine{
+    bottom: -3%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.281));
+}
+.BorderLeft{
+    width: 1px ;
+    height: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+.FormBtn {
+    border: none;
+    background-color: transparent;
+    color: #FED501;
+    font-size: 22px;
+    font-weight: bolder;
+}
