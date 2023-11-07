@@ -6,6 +6,7 @@
 body {
     direction: rtl;
     font-family: HT;
+    color: #33312A;
 }
 
 
@@ -14,6 +15,7 @@ Navbar
 *************/
 nav.navbar {
     background-color: black;
+
 }
 
 nav.navbar .navbar-brand img {
@@ -163,3 +165,55 @@ header.header .nav-tabs .nav-link.active {
 .FormBtn:hover{
     filter: brightness(85%);
 }
+
+/************
+End Carousel Part
+*************/
+
+/************
+Card Part
+*************/
+section.CardPart .card{
+    border: none;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.151));
+}
+section.CardPart .card .carousel button{
+    opacity: 1;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.151));
+}
+section.CardPart .card .card-title{
+    font-size: 23px;
+    font-weight: bolder;
+    color: #3C389D;
+
+}
+section.CardPart .card svg.YellowSVG{
+    color: #FED501;
+    font-size: 20px;
+}
+svg.blacksvg{
+    color: #33312A !important;
+}
+svg.purpleSvg{
+    color: #3C389D !important;
+}
+section.CardPart .card .card-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+section.CardPart .card .card-text span{
+    border: 1px solid #33312A;
+    background-color: #33312A;
+    padding: 3px 15px;
+    color: white;
+    border-radius: 20px;
+}
+section.CardPart .card .price{
+    font-size: 20px;
+    color:#FED501;
+    font-weight: bolder;
+
+}
+/************
+End Card Part
+*************/
