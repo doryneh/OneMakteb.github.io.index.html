@@ -331,3 +331,62 @@ footer.footer .Copyright{
 /************
 End footer
 *************/
+
+
+/************************************************
+*************************************************
+************************Design Page**************
+*************************************************/
+header.DesignPageHeader .carousel-inner{
+
+    height: 80vh;
+}
+header.DesignPageHeader .carousel .carousel-control-prev, header.DesignPageHeader .carousel .carousel-control-next{
+    top: 50%;
+    background-color: #000000;
+    color: #FED501;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    opacity: 1;
+    filter: drop-shadow(2px 3px 5px rgba(255, 255, 255, 0.219));
+    font-size: 20px;
+
+}
+header.DesignPageHeader .carousel .carousel-control-prev{
+    right: 5%;
+}
+header.DesignPageHeader .carousel .carousel-control-next{
+ left: 5%;
+}
+ .MidText{
+    font-size: 35px;
+    font-weight: bolder;
+}
+section.DesignDetails .Details{
+    border: 2px solid black;
+    padding: 7px 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.11));
+}
+section.DesignDetails .Details span{
+    background-color: #FED501;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 20px;
+    display: block;
+    font-weight: bolder;
+    width: 50%;
+    text-align: center;
+}
+section.DesignDetails  button{
+    color: #000000;
+    border-radius: 10px;
+}
