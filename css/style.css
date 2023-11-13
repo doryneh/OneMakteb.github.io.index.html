@@ -47,7 +47,12 @@ nav.navbar .nav-link.active, nav.navbar .nav-link:hover {
     background-color: #FED501;
     color: black;
 }
-
+.SectionTitle{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #33312A;
+    text-align: center;
+}
 /************
 End Navbar
 *************/
@@ -79,7 +84,6 @@ header.header .FormLine {
     background-color: white;
     padding: 20px;
     border-radius: 20px;
-    border-top-right-radius: 0px;
     padding: 30px 20px;
 }
 
@@ -176,27 +180,25 @@ Card Part
 section.CardPart .card{
     border: none;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.151));
+    border-radius:10px ;
+    overflow: hidden;
 }
 section.CardPart .card .carousel button{
     opacity: 1;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.151));
+    
 }
 section.CardPart .card .card-title{
     font-size: 23px;
     font-weight: bolder;
-    color: #3C389D;
+    color: #33312A ;
 
 }
-section.CardPart .card svg.YellowSVG{
+section.CardPart .card svg{
     color: #FED501;
     font-size: 20px;
 }
-svg.blacksvg{
-    color: #33312A !important;
-}
-svg.purpleSvg{
-    color: #3C389D !important;
-}
+
 section.CardPart .card .card-text{
     font-size: 18px;
     font-weight: 600;
@@ -210,10 +212,122 @@ section.CardPart .card .card-text span{
 }
 section.CardPart .card .price{
     font-size: 20px;
-    color:#FED501;
     font-weight: bolder;
 
 }
+a{
+    text-decoration: none;
+}
+section.CardPart .card .ShowMoreBtn{
+    background-color: #FED501;
+    color: #33312A !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: 0.3s ease all;
+}
+section.CardPart .card .ShowMoreBtn svg{
+    color: #33312A;
+    transition: 0.3s ease all;
+
+}
+section.CardPart .card .ShowMoreBtn:hover{
+    filter: brightness(85%);
+}
+section.CardPart .card .ShowMoreBtn:hover svg{
+    transform: translateX(-20px);
+}
+
 /************
 End Card Part
+*************/
+
+
+/************
+Services
+*************/
+section.Services  .card {
+    background-color: white;
+    filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.158));
+    border-radius: 20px;
+}
+section.Services  .card .ServiceTitle {
+    font-weight: bolder;
+    font-size: 25px;
+    color: #33312A;
+    margin-top: 15px;
+}
+/************
+End Services
+*************/
+
+
+/************
+footer
+*************/
+footer.footer {
+    background-color: black;
+    color: white;
+}
+footer.footer .FooterLogo{
+    filter: brightness(0) invert(1);
+    width: 50%;
+}
+footer.footer .footerTitle{
+    font-size: 25px;
+    font-weight: bolder;
+}
+footer.footer .yellowLine{
+    width: 50%;
+    height: 2px;
+    background-color: #FED501;
+    display: block;
+    margin-bottom: 20px;
+}
+footer.footer .FooterLinks{
+    display: flex;
+    flex-direction: column;
+}
+footer.footer .FooterLinks a{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer.footer .socialMedia{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+footer.footer .socialMedia a {
+    background-color: #000000;
+    border: 2px solid #FED501;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    transition: 0.3s ease all;
+}
+footer.footer .socialMedia a:hover{
+    transform: scale(1.1);
+}
+footer.footer   .email{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+footer.footer .Copyright{
+    font-size: 20px;
+    margin-top: 20px;
+    border-top: 1px solid white;
+}
+/************
+End footer
 *************/
