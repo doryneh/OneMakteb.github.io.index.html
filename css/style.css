@@ -30,21 +30,21 @@ nav.navbar .nav-link {
 }
 
 nav.navbar .nav-link.active, nav.navbar .nav-link:hover {
-    color: #FED501 !important;
+    color: #DB9A36 !important;
 }
 
 .RegisterButton button {
-    border: 1px solid #FED501;
+    border: 1px solid #DB9A36;
 
     background-color: black;
-    color: #FED501;
+    color: #DB9A36;
     font-weight: bold;
     transition: 0.3s ease all;
 
 }
 
 .RegisterButton button:hover {
-    background-color: #FED501;
+    background-color: #DB9A36;
     color: black;
 }
 .SectionTitle{
@@ -60,9 +60,14 @@ End Navbar
 /************
 Carousel Part
 *************/
+header.header {
+    background-image: url(../images/Headerbg.png);
+    background-size: contain;
+    background-position: center center;
+}
 header.header .carousel .carousel-control-prev, header.header .carousel .carousel-control-next {
     background-color: #000000;
-    color: #FED501;
+    color: #DB9A36;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -88,7 +93,7 @@ header.header .FormLine {
 }
 
 header.header .FormLine svg {
-    color: #FED501;
+    color: #DB9A36;
     font-size: 20px;
     margin-left: 20px;
 }
@@ -118,7 +123,7 @@ header.header .FormLine input::placeholder {
 }
 
 header.header .nav-tabs .nav-link {
-    color: #FED501;
+    color: #DB9A36;
     font-size: 22px;
     font-weight: bolder;
     background-color: white;
@@ -156,8 +161,8 @@ header.header .nav-tabs .nav-link.active {
 }
 
 .FormBtn {
-    border: 1px solid #FED501;
-    background-color: #FED501;
+    border: 1px solid #DB9A36;
+    background-color: #DB9A36;
     color: white;
     font-weight: bolder;
     font-size: 22px;
@@ -195,7 +200,7 @@ section.CardPart .card .card-title{
 
 }
 section.CardPart .card svg{
-    color: #FED501;
+    color: #DB9A36;
     font-size: 20px;
 }
 
@@ -219,7 +224,7 @@ a{
     text-decoration: none;
 }
 section.CardPart .card .ShowMoreBtn{
-    background-color: #FED501;
+    background-color: #DB9A36;
     color: #33312A !important;
     display: flex;
     justify-content: center;
@@ -282,7 +287,7 @@ footer.footer .footerTitle{
 footer.footer .yellowLine{
     width: 50%;
     height: 2px;
-    background-color: #FED501;
+    background-color: #DB9A36;
     display: block;
     margin-bottom: 20px;
 }
@@ -302,7 +307,7 @@ footer.footer .socialMedia{
 }
 footer.footer .socialMedia a {
     background-color: #000000;
-    border: 2px solid #FED501;
+    border: 2px solid #DB9A36;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -344,7 +349,7 @@ header.DesignPageHeader .carousel-inner{
 header.DesignPageHeader .carousel .carousel-control-prev, header.DesignPageHeader .carousel .carousel-control-next{
     top: 50%;
     background-color: #000000;
-    color: #FED501;
+    color: #DB9A36;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -377,7 +382,7 @@ section.DesignDetails .Details{
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.11));
 }
 section.DesignDetails .Details span{
-    background-color: #FED501;
+    background-color: #DB9A36;
     border-radius: 10px;
     font-size: 18px;
     padding: 5px 20px;
