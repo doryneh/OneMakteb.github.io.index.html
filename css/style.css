@@ -244,7 +244,30 @@ section.CardPart .card .ShowMoreBtn:hover{
 section.CardPart .card .ShowMoreBtn:hover svg{
     transform: translateX(-20px);
 }
+section.CardPart .AllDesignBtn{
+    background-color: black;
+    border: 3px solid #DB9A36; 
+    border-radius: 15px;
+    color: white;
+    width: 200px !important;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+.page-item.active .page-link,.page-item:hover .page-link{
+    background-color: #DB9A36;
+    border-color: #33312A ;
+    color: white;
+    
+}
 
+.page-link{
+    color: #33312A;
+    border: 1px solid #33312A;
+    font-weight: bolder;
+    font-size: 20px;
+}
 /************
 End Card Part
 *************/
