@@ -14,7 +14,7 @@ body {
 Navbar
 *************/
 nav.navbar {
-    background-color: black;
+    background-color: #33312A;
 
 }
 
@@ -36,7 +36,7 @@ nav.navbar .nav-link.active, nav.navbar .nav-link:hover {
 .RegisterButton button {
     border: 1px solid #DB9A36;
 
-    background-color: black;
+    background-color: #33312A;
     color: #DB9A36;
     font-weight: bold;
     transition: 0.3s ease all;
@@ -45,7 +45,7 @@ nav.navbar .nav-link.active, nav.navbar .nav-link:hover {
 
 .RegisterButton button:hover {
     background-color: #DB9A36;
-    color: black;
+    color: #33312A;
 }
 .SectionTitle{
     font-size: 45px;
@@ -66,7 +66,7 @@ header.header {
     background-position: center center;
 }
 header.header .carousel .carousel-control-prev, header.header .carousel .carousel-control-next {
-    background-color: #000000;
+    background-color: #33312A;
     color: #DB9A36;
     border-radius: 50%;
     height: 50px;
@@ -119,7 +119,7 @@ header.header .FormLine input {
 }
 
 header.header .FormLine input::placeholder {
-    color: black;
+    color: #33312A;
 }
 
 header.header .nav-tabs .nav-link {
@@ -245,7 +245,7 @@ section.CardPart .card .ShowMoreBtn:hover svg{
     transform: translateX(-20px);
 }
  .AllDesignBtn{
-    background-color: black;
+    background-color: #33312A;
     border: 3px solid #DB9A36; 
     border-radius: 15px;
     color: white;
@@ -296,7 +296,7 @@ End Services
 footer
 *************/
 footer.footer {
-    background-color: black;
+    background-color: #33312A;
     color: white;
 }
 footer.footer .FooterLogo{
@@ -329,7 +329,7 @@ footer.footer .socialMedia{
     align-items: center;
 }
 footer.footer .socialMedia a {
-    background-color: #000000;
+    background-color: #33312A;
     border: 2px solid #DB9A36;
     width: 40px;
     height: 40px;
@@ -371,7 +371,7 @@ header.DesignPageHeader .carousel-inner{
 }
 header.DesignPageHeader .carousel .carousel-control-prev, header.DesignPageHeader .carousel .carousel-control-next{
     top: 50%;
-    background-color: #000000;
+    background-color: #33312A;
     color: #DB9A36;
     border-radius: 50%;
     height: 50px;
@@ -392,7 +392,7 @@ header.DesignPageHeader .carousel .carousel-control-next{
     font-weight: bolder;
 }
 section.DesignDetails .Details{
-    border: 2px solid black;
+    border: 2px solid #33312A;
     padding: 7px 15px;
     font-size: 25px;
     font-weight: bolder;
@@ -415,7 +415,7 @@ section.DesignDetails .Details span{
     text-align: center;
 }
 section.DesignDetails  button{
-    color: #000000;
+    color: #33312A;
     border-radius: 10px;
 }
 
