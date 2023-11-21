@@ -287,8 +287,40 @@ section.Services  .card .ServiceTitle {
     color: #33312A;
     margin-top: 15px;
 }
+
+.ContactIcon{
+    font-size: 200px;
+    color: #DB9A36;
+}
+
 /************
 End Services
+*************/
+
+/************
+Contact Us
+*************/
+.ContactUsform .ContactIcon{
+    font-size: 200px;
+    color: #DB9A36;
+}
+.ContactUsform input,.ContactUsform textarea, .ContactUsform select{
+    border-radius: 5px;
+    border: 1px solid #33312A !important; 
+    direction: rtl;
+    color: #33312A;
+    box-shadow: none !important;
+}
+.ContactUsform  input::placeholder , .ContactUsform textarea::placeholder{
+    color: #33312A;
+}
+.ContactUsform  label{
+    color: #DB9A36;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/************
+End Contact Us
 *************/
 
 
