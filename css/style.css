@@ -147,7 +147,6 @@ header.header .nav-tabs .nav-link.active {
     transform: translateX(-50%);
     width: 75%;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.281));
-    display: none;
 }
 .searchLineBtn{
     position: absolute;
@@ -161,6 +160,9 @@ header.header .nav-tabs .nav-link.active {
     border-radius: 5px;
     border: 2px solid black;
     font-size: 25px;
+}
+.IndexHeader .searchLine{
+    display: none;
 }
 .searchLineBtn img{
     mix-blend-mode:darken;
