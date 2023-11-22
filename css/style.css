@@ -147,8 +147,27 @@ header.header .nav-tabs .nav-link.active {
     transform: translateX(-50%);
     width: 75%;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.281));
+    display: none;
 }
-
+.searchLineBtn{
+    position: absolute;
+    background-color: #DB9A36;
+    border: black;
+    bottom: 20px;
+    left: 20px;
+    font-weight: bolder;
+    z-index: 10000;
+    padding: 7px 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.searchLineBtn img{
+    mix-blend-mode:darken;
+    width: 30px;
+    margin-right: 10px;
+}
+.searchLineBtn
 .BorderLeft {
     width: 1px;
     height: 50%;
@@ -159,7 +178,14 @@ header.header .nav-tabs .nav-link.active {
     transform: translateY(-50%);
     border-radius: 10px;
 }
-
+.exitBtn{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
 .FormBtn {
     border: 1px solid #DB9A36;
     background-color: #DB9A36;
