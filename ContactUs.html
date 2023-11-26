@@ -60,45 +60,43 @@
 
     <header class="ContactUsform  py-5 position-relative mb-5" id="header">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <form action="">
-                        <div class=" mb-3">
-                            <label for="formGroupExampleInput1" class="form-label"> أسم المستخدم </label>
-                            <input type="text" class="form-control" id="formGroupExampleInput1"
-                                placeholder="  أسم المستخدم ">
-                        </div>
-                        <div class=" mb-3">
-                            <label for="formGroupExampleInput2" class="form-label">رقم الهاتف </label>
-                            <input type="number" class="form-control" id="formGroupExampleInput2"
-                                placeholder="  +9990000000">
-                        </div>
-                        <div class=" mb-3">
-                            <label for="formGroupExampleInput3" class="form-label"> الدولة </label>
-                            <select class="form-select" aria-label="Default select example" id="formGroupExampleInput3">
-                                <option selected>السعودية</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
+            <form action="">
+                <div class="row">
 
-                        <div class=" mb-3">
-                            <label for="formGroupExampleInput4" class="form-label">عنوان الرسالة </label>
-                            <input type="text" class="form-control" id="formGroupExampleInput4"
-                                placeholder="عنوان الرسالة">
-                        </div>
-                        <div class=" mb-3 flex-column d-flex">
-                            <label for="formGroupExampleInput5" class="form-label"> الرسالة</label>
-                            <textarea name="" id="formGroupExampleInput5" cols="30" rows="5" placeholder="الرسالة"
-                                class="p-3"></textarea>
-                        </div>
-                    </form>
+
+                    <div class=" mb-3 col-md-6">
+                        <label for="formGroupExampleInput1" class="form-label"><i class="fa-solid fa-user me-2"></i> أسم المستخدم </label>
+                        <input type="text" class="form-control" id="formGroupExampleInput1"
+                            placeholder="  أسم المستخدم ">
+                    </div>
+                    <div class=" mb-3 col-md-6">
+                        <label for="formGroupExampleInput2" class="form-label d-flex">
+                            <i class="fa-solid fa-phone me-2"></i>  رقم الهاتف </label>
+                        <input type="number" class="form-control" id="formGroupExampleInput2"
+                            placeholder="  +9990000000">
+                    </div>
+                    <div class=" mb-3 col-md-6">
+                        <label for="formGroupExampleInput3" class="form-label"> <i class="fa-solid fa-earth-americas me-2"></i> الدولة </label>
+                        <select class="form-select" aria-label="Default select example" id="formGroupExampleInput3">
+                            <option selected>السعودية</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+
+                    <div class=" mb-3 col-md-6">
+                        <label for="formGroupExampleInput4" class="form-label"> <i class="fa-solid fa-envelope-open-text me-2"></i> عنوان الرسالة </label>
+                        <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="عنوان الرسالة">
+                    </div>
+                    <div class=" mb-3 col-md-12 flex-column d-flex ">
+                        <label for="formGroupExampleInput5" class="form-label"><i class="fa-solid fa-envelope me-2"></i> الرسالة</label>
+                        <textarea name="" id="formGroupExampleInput5" cols="30" rows="5" placeholder="الرسالة"
+                            class="p-3"></textarea>
+                    </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center ContactIcon">
-                    <img src="images/IconImg.svg" alt="IconImg" class="w-100">
-                </div>
-            </div>
+            </form>
+        </div>
         </div>
     </header>
     <!--End Carousel Part-->

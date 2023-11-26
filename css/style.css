@@ -169,7 +169,6 @@ header.header .nav-tabs .nav-link.active {
     width: 30px;
     margin-right: 10px;
 }
-.searchLineBtn
 .BorderLeft {
     width: 1px;
     height: 50%;
@@ -346,6 +345,10 @@ Contact Us
     color: #DB9A36;
     font-weight: bolder;
     font-size: 20px;
+    
+}
+.ContactUsform  label svg{
+    color: #33312A;
 }
 /************
 End Contact Us
