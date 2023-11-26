@@ -46,12 +46,43 @@
           </li>
         </ul>
       </div>
-      <a href="" class="RegisterButton"><button type="button" class="btn  ">تسجيل الدخول</button></a>
+      <div class="RegisterButton"><button type="button" class="btn  " data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">تسجيل الدخول</button></div>
 
     </div>
   </nav>
 
   <!--End Navbar-->
+
+  <!-- Button trigger modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel"><b>تسجيل الدخول</b> </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+              <div class="mb-3">
+                <label for="formGroupExampleInput1" class="form-label"><i class="fa-solid fa-user me-2"></i> أسم
+                  المستخدم </label>
+                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="  أسم المستخدم ">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label d-flex">
+                  <i class="fa-solid fa-phone me-2"></i> كلمة السر </label>
+                <input type="password" class="form-control" id="formGroupExampleInput2" placeholder=" *******">
+              </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
 
   <!--Carousel Part-->
   <header class="header IndexHeader py-5 position-relative mb-5" id="header">
@@ -92,7 +123,7 @@
                   <i class="fa-solid fa-ruler-combined"></i>
                   <div>
                     <div class="smallText">
-                     مساحة المقاطعة
+                      مساحة المقاطعة
                     </div>
                     <div class="BigText">
                       <input type="text" placeholder="الرجاء التحديد">
@@ -118,7 +149,7 @@
 
                   <div>
                     <div class="smallText">
-                    نوع البناء الفرعي
+                      نوع البناء الفرعي
                     </div>
                     <div class="BigText">
                       <select class="form-select form-select-lg" aria-label=".form-select-lg example">
@@ -205,7 +236,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -236,7 +267,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -265,7 +296,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -296,7 +327,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -325,7 +356,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -356,7 +387,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -385,7 +416,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -416,7 +447,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -445,7 +476,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -476,7 +507,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -505,7 +536,7 @@
               <p class="card-text"> <i class="fa-solid fa-ruler-combined me-2 blacksvg"></i> 200 م. <span
                   class="float-end">سكني</span></p>
               <div class="price"> <i class="fa-solid fa-tag me-2 purpleSvg"></i>4000 ر.س.</div>
-               <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
+              <a href="DesignPage.html"><button class="ShowMoreBtn btn w-100">المزيد من التفاصيل<i
                     class="fa-solid fa-arrow-left ms-2"></i></button></a>
 
             </div>
@@ -545,7 +576,7 @@
       </div>
       <div class="d-flex justify-content-center align-items-center ">
         <a href="AllDesigns.html"><button class="AllDesignBtn btn w-100">عرض الكل <i
-          class="fa-solid fa-arrow-left ms-2"></i></button></a>
+              class="fa-solid fa-arrow-left ms-2"></i></button></a>
       </div>
     </div>
   </section>
@@ -592,8 +623,7 @@
       </div>
       <div class="d-flex justify-content-center align-items-center ">
         <a href="AllServices.html
-        "><button class="AllDesignBtn btn w-100">عرض الكل <i
-          class="fa-solid fa-arrow-left ms-2"></i></button></a>
+        "><button class="AllDesignBtn btn w-100">عرض الكل <i class="fa-solid fa-arrow-left ms-2"></i></button></a>
       </div>
     </div>
   </section>
@@ -630,13 +660,13 @@
             <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
 
           </div>
-<div class="email">exampleemail@gmail.com
-  <br>
-  السعودية - السعودية قرب يبيبيب
-</div>
+          <div class="email">exampleemail@gmail.com
+            <br>
+            السعودية - السعودية قرب يبيبيب
+          </div>
         </div>
       </div>
-      
+
     </div>
     <div class="container-fluid p-0">
       <div class="Copyright text-center pt-4">

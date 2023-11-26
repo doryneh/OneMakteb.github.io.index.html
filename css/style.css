@@ -47,12 +47,14 @@ nav.navbar .nav-link.active, nav.navbar .nav-link:hover {
     background-color: #DB9A36;
     color: #33312A;
 }
-.SectionTitle{
+
+.SectionTitle {
     font-size: 45px;
     font-weight: bolder;
     color: #33312A;
     text-align: center;
 }
+
 /************
 End Navbar
 *************/
@@ -65,6 +67,7 @@ header.header {
     background-size: contain;
     background-position: center center;
 }
+
 header.header .carousel .carousel-control-prev, header.header .carousel .carousel-control-next {
     background-color: #33312A;
     color: #DB9A36;
@@ -104,22 +107,22 @@ header.header .FormLine .smallText {
 }
 
 header.header .FormLine input, header.header .FormLine select {
-    border: none;
+    border: none !important;
     padding: 0px auto !important;
-    font-size: 18px;
-    font-weight: bolder;
-    line-height: normal;
-    outline: none;
-    box-shadow: none;
+    font-size: 18px !important;
+    font-weight: bolder !important;
+    line-height: normal !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 header.header .FormLine input {
-    width: 75%;
+    width: 75% !important;
 
 }
 
 header.header .FormLine input::placeholder {
-    color: #33312A;
+    color: #33312A !important;
 }
 
 header.header .nav-tabs .nav-link {
@@ -148,27 +151,31 @@ header.header .nav-tabs .nav-link.active {
     width: 75%;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.281));
 }
-.searchLineBtn{
+
+.searchLineBtn {
     position: absolute;
     background-color: #DB9A36;
     border: black;
     bottom: 20px;
     left: 20px;
     font-weight: bolder;
-    z-index: 10000;
+    z-index: 10;
     padding: 7px 40px;
     border-radius: 5px;
     border: 2px solid black;
     font-size: 25px;
 }
-.IndexHeader .searchLine{
+
+.IndexHeader .searchLine {
     display: none;
 }
-.searchLineBtn img{
-    mix-blend-mode:darken;
+
+.searchLineBtn img {
+    mix-blend-mode: darken;
     width: 30px;
     margin-right: 10px;
 }
+
 .BorderLeft {
     width: 1px;
     height: 50%;
@@ -179,7 +186,8 @@ header.header .nav-tabs .nav-link.active {
     transform: translateY(-50%);
     border-radius: 10px;
 }
-.exitBtn{
+
+.exitBtn {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -187,6 +195,7 @@ header.header .nav-tabs .nav-link.active {
     background-color: transparent;
     font-size: 20px;
 }
+
 .FormBtn {
     border: 1px solid #DB9A36;
     background-color: #DB9A36;
@@ -198,7 +207,7 @@ header.header .nav-tabs .nav-link.active {
     transition: 0.3s ease all;
 }
 
-.FormBtn:hover{
+.FormBtn:hover {
     filter: brightness(85%);
 }
 
@@ -209,48 +218,55 @@ End Carousel Part
 /************
 Card Part
 *************/
-section.CardPart .card{
+section.CardPart .card {
     border: none;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.151));
-    border-radius:10px ;
+    border-radius: 10px;
     overflow: hidden;
 }
-section.CardPart .card .carousel button{
+
+section.CardPart .card .carousel button {
     opacity: 1;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.151));
-    
-}
-section.CardPart .card .card-title{
-    font-size: 23px;
-    font-weight: bolder;
-    color: #33312A ;
 
 }
-section.CardPart .card svg{
+
+section.CardPart .card .card-title {
+    font-size: 23px;
+    font-weight: bolder;
+    color: #33312A;
+
+}
+
+section.CardPart .card svg {
     color: #DB9A36;
     font-size: 20px;
 }
 
-section.CardPart .card .card-text{
+section.CardPart .card .card-text {
     font-size: 18px;
     font-weight: 600;
 }
-section.CardPart .card .card-text span{
+
+section.CardPart .card .card-text span {
     border: 1px solid #33312A;
     background-color: #33312A;
     padding: 3px 15px;
     color: white;
     border-radius: 20px;
 }
-section.CardPart .card .price{
+
+section.CardPart .card .price {
     font-size: 20px;
     font-weight: bolder;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-section.CardPart .card .ShowMoreBtn{
+
+section.CardPart .card .ShowMoreBtn {
     background-color: #DB9A36;
     color: #33312A !important;
     display: flex;
@@ -260,20 +276,24 @@ section.CardPart .card .ShowMoreBtn{
     font-weight: bold;
     transition: 0.3s ease all;
 }
-section.CardPart .card .ShowMoreBtn svg{
+
+section.CardPart .card .ShowMoreBtn svg {
     color: #33312A;
     transition: 0.3s ease all;
 
 }
-section.CardPart .card .ShowMoreBtn:hover{
+
+section.CardPart .card .ShowMoreBtn:hover {
     filter: brightness(85%);
 }
-section.CardPart .card .ShowMoreBtn:hover svg{
+
+section.CardPart .card .ShowMoreBtn:hover svg {
     transform: translateX(-20px);
 }
- .AllDesignBtn{
+
+.AllDesignBtn {
     background-color: #33312A;
-    border: 3px solid #DB9A36; 
+    border: 3px solid #DB9A36;
     border-radius: 15px;
     color: white;
     width: 200px !important;
@@ -282,19 +302,21 @@ section.CardPart .card .ShowMoreBtn:hover svg{
     font-weight: bolder;
     padding: 10px 20px;
 }
-.page-item.active .page-link,.page-item:hover .page-link{
+
+.page-item.active .page-link, .page-item:hover .page-link {
     background-color: #DB9A36;
-    border-color: #33312A ;
+    border-color: #33312A;
     color: white;
-    
+
 }
 
-.page-link{
+.page-link {
     color: #33312A;
     border: 1px solid #33312A;
     font-weight: bolder;
     font-size: 20px;
 }
+
 /************
 End Card Part
 *************/
@@ -303,19 +325,20 @@ End Card Part
 /************
 Services
 *************/
-section.Services  .card {
+section.Services .card {
     background-color: white;
     filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.158));
     border-radius: 20px;
 }
-section.Services  .card .ServiceTitle {
+
+section.Services .card .ServiceTitle {
     font-weight: bolder;
     font-size: 25px;
     color: #33312A;
     margin-top: 15px;
 }
 
-.ContactIcon{
+.ContactIcon {
     font-size: 200px;
     color: #DB9A36;
 }
@@ -327,29 +350,34 @@ End Services
 /************
 Contact Us
 *************/
-.ContactUsform .ContactIcon{
+.ContactUsform .ContactIcon {
     font-size: 200px;
     color: #DB9A36;
 }
-.ContactUsform input,.ContactUsform textarea, .ContactUsform select{
+
+input, textarea, select {
     border-radius: 5px;
-    border: 1px solid #33312A !important; 
-    direction: rtl;
+    border: 1px solid #33312A !important;
+    direction: rtl !important;
     color: #33312A;
     box-shadow: none !important;
 }
-.ContactUsform  input::placeholder , .ContactUsform textarea::placeholder{
+
+input::placeholder, textarea::placeholder {
     color: #33312A;
 }
-.ContactUsform  label{
+
+label {
     color: #DB9A36;
     font-weight: bolder;
     font-size: 20px;
-    
+
 }
-.ContactUsform  label svg{
+
+label svg {
     color: #33312A;
 }
+
 /************
 End Contact Us
 *************/
@@ -362,35 +390,42 @@ footer.footer {
     background-color: #33312A;
     color: white;
 }
-footer.footer .FooterLogo{
+
+footer.footer .FooterLogo {
     filter: brightness(0) invert(1);
     width: 50%;
 }
-footer.footer .footerTitle{
+
+footer.footer .footerTitle {
     font-size: 25px;
     font-weight: bolder;
 }
-footer.footer .yellowLine{
+
+footer.footer .yellowLine {
     width: 50%;
     height: 2px;
     background-color: #DB9A36;
     display: block;
     margin-bottom: 20px;
 }
-footer.footer .FooterLinks{
+
+footer.footer .FooterLinks {
     display: flex;
     flex-direction: column;
 }
-footer.footer .FooterLinks a{
+
+footer.footer .FooterLinks a {
     color: white;
     font-size: 20px;
     margin-bottom: 20px;
 }
-footer.footer .socialMedia{
+
+footer.footer .socialMedia {
     display: flex;
     justify-content: start;
     align-items: center;
 }
+
 footer.footer .socialMedia a {
     background-color: #33312A;
     border: 2px solid #DB9A36;
@@ -405,20 +440,23 @@ footer.footer .socialMedia a {
     margin-left: 10px;
     transition: 0.3s ease all;
 }
-footer.footer .socialMedia a:hover{
+
+footer.footer .socialMedia a:hover {
     transform: scale(1.1);
 }
-footer.footer   .email{
+
+footer.footer .email {
     color: white;
     margin-top: 20px;
     font-size: 20px;
 }
 
-footer.footer .Copyright{
+footer.footer .Copyright {
     font-size: 20px;
     margin-top: 20px;
     border-top: 1px solid white;
 }
+
 /************
 End footer
 *************/
@@ -428,11 +466,12 @@ End footer
 *************************************************
 ************************Design Page**************
 *************************************************/
-header.DesignPageHeader .carousel-inner{
+header.DesignPageHeader .carousel-inner {
 
     height: 80vh;
 }
-header.DesignPageHeader .carousel .carousel-control-prev, header.DesignPageHeader .carousel .carousel-control-next{
+
+header.DesignPageHeader .carousel .carousel-control-prev, header.DesignPageHeader .carousel .carousel-control-next {
     top: 50%;
     background-color: #33312A;
     color: #DB9A36;
@@ -444,17 +483,21 @@ header.DesignPageHeader .carousel .carousel-control-prev, header.DesignPageHeade
     font-size: 20px;
 
 }
-header.DesignPageHeader .carousel .carousel-control-prev{
+
+header.DesignPageHeader .carousel .carousel-control-prev {
     right: 5%;
 }
-header.DesignPageHeader .carousel .carousel-control-next{
- left: 5%;
+
+header.DesignPageHeader .carousel .carousel-control-next {
+    left: 5%;
 }
- .MidText{
+
+.MidText {
     font-size: 35px;
     font-weight: bolder;
 }
-section.DesignDetails .Details{
+
+section.DesignDetails .Details {
     border: 2px solid #33312A;
     padding: 7px 15px;
     font-size: 25px;
@@ -467,7 +510,8 @@ section.DesignDetails .Details{
     background-color: white;
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.11));
 }
-section.DesignDetails .Details span{
+
+section.DesignDetails .Details span {
     background-color: #DB9A36;
     border-radius: 10px;
     font-size: 18px;
@@ -477,7 +521,8 @@ section.DesignDetails .Details span{
     width: 50%;
     text-align: center;
 }
-section.DesignDetails  button{
+
+section.DesignDetails button {
     color: #33312A;
     border-radius: 10px;
 }
@@ -489,7 +534,7 @@ section.DesignDetails  button{
 ************************About Us Page**************
 *************************************************/
 
-header.AboutUsHeader .searchLine{
+header.AboutUsHeader .searchLine {
     transform: unset;
     width: 100%;
 }
