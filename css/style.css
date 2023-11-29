@@ -108,7 +108,7 @@ header.header .FormLine .smallText {
 
 header.header .FormLine input, header.header .FormLine select {
     border: none !important;
-    padding: 0px auto !important;
+    padding: 0px 5px !important;
     font-size: 18px !important;
     font-weight: bolder !important;
     line-height: normal !important;
@@ -342,21 +342,24 @@ section.Services .card .ServiceTitle {
     font-size: 200px;
     color: #DB9A36;
 }
-.TimeRegistered{
+
+.TimeRegistered {
     font-size: 18px;
     color: white;
 }
-.Suggestions .card{
+
+.Suggestions .card {
     border: 1px solid #33312A !important;
     background-color: #33312A !important;
     color: white !important;
 
 }
 
-.Suggestions .card .ServiceTitle{
+.Suggestions .card .ServiceTitle {
     color: white !important;
 
 }
+
 /************
 End Services
 *************/
@@ -551,4 +554,126 @@ section.DesignDetails button {
 header.AboutUsHeader .searchLine {
     transform: unset;
     width: 100%;
+}
+
+
+.navbar-toggler {
+    color: white;
+    font-size: 30px;
+    border: 0px;
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+/*************************************************************************************************
+**************************************************************************************************
+******************************************   Media      *****************************************
+*************************************************************************************************
+**************************************************************************************************/
+
+
+@media (max-width: 991px) {
+    nav.navbar .nav-link {
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .RegisterButton.d-flex.d-md-none {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .searchLineBtn {
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+
+    header.header .carousel .carousel-control-prev {
+        right: 20px;
+    }
+
+    header.header .carousel .carousel-control-next {
+        right: unset;
+        left: 20px;
+    }
+
+    header.header .carousel .carousel-control-prev, header.header .carousel .carousel-control-next {
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .searchLine {
+        width: 100%;
+        position: relative !important;
+        transform: none !important;
+        left:unset;
+        margin-top: 20px;
+    }
+
+    .SectionTitle {
+        font-size: 32px;
+    }
+
+    section.CardPart .card .card-title, section.CardPart .card .card-text {
+        margin-bottom: 10px;
+    }
+
+    section.CardPart .card .card-text {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    section.CardPart .card .card-text span {
+
+        text-align: center;
+        font-size: 12px;
+        justify-content: space-between;
+    }
+
+    section.CardPart .card .card-body {
+        flex: 1 1 auto;
+        padding: 0.5rem 0.5rem;
+    }
+
+    section.CardPart .card .ShowMoreBtn {
+        font-size: 15px;
+    }
+
+    .AllDesignBtn {
+
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    section.Services .card img {
+        width: 75% !important;
+    }
+
+    section.Services .card .ServiceTitle {
+        font-size: 20px;
+    }
+    .BorderLeft{
+        display: none;
+    }
+    header.header .FormLine input,footer.footer .yellowLine{
+        width: 100%;
+    }
+    footer.footer .footerTitle,footer.footer .FooterLinks a,footer.footer .email{
+        text-align: center;
+    }
+    footer.footer .socialMedia{
+        justify-content: space-evenly;
+    }
+    footer.footer .FooterLogo {
+        width: 35%;
+        display: flex;
+        margin: auto;
+    }
+    header.DesignPageHeader .carousel-inner {
+        height: fit-content;
+    }
 }

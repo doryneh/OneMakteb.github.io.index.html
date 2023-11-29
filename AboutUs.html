@@ -20,10 +20,10 @@
       <a class="navbar-brand" href="index.html"><img src="images/logo-removebg-preview.png " alt="" width="75"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fa-solid fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-        <ul class="navbar-nav d-flex justify-content-between">
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav d-flex justify-content-center w-100">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
           </li>
@@ -32,7 +32,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="ContactUs.html">اتصل بنا </a>
-
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -45,15 +44,44 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
+          <div class="RegisterButton d-flex d-md-none mb-3"><button type="button" class="btn  " data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">تسجيل الدخول</button></div>
         </ul>
       </div>
-      <a href="" class="RegisterButton"><button type="button" class="btn  ">تسجيل الدخول</button></a>
+      <div class="RegisterButton d-none d-md-flex"><button type="button" class="btn  " data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">تسجيل الدخول</button></div>
 
     </div>
   </nav>
 
   <!--End Navbar-->
+ <!-- Modal -->
+ <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+ aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog  modal-dialog-centered">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="staticBackdropLabel"><b>تسجيل الدخول</b> </h5>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form action="">
+         <div class="mb-3">
+           <label for="formGroupExampleInput1" class="form-label"><i class="fa-solid fa-user me-2"></i> أسم
+             المستخدم </label>
+           <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="  أسم المستخدم ">
+         </div>
+         <div class="mb-3">
+           <label for="formGroupExampleInput2" class="form-label d-flex">
+             <i class="fa-solid fa-phone me-2"></i> كلمة السر </label>
+           <input type="password" class="form-control" id="formGroupExampleInput2" placeholder=" *******">
+         </div>
+       </form>
+     </div>
 
+   </div>
+ </div>
+</div>
 
 
   <section class="AboutUsText pb-5" id="AboutUsText">
@@ -105,7 +133,7 @@
       <div class="SectionTitle">اقترحنا لك </div>
 
       <div class="row mt-4">
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-6">
           <div class="card">
             <div id="CardCarousel1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -134,7 +162,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-6">
           <div class="card">
             <div id="CardCarousel2" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -165,7 +193,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-6 mt-4 mt-md-0">
           <div class="card">
             <div id="CardCarousel3" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -194,7 +222,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-6 mt-4 mt-md-0">
           <div class="card">
             <div id="CardCarousel4" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -232,13 +260,13 @@
   </section>
   <!--End Cards Part-->
 
-  <footer class="footer py-5" id="footer">
+  <footer class="footer py-md-5 py-3" id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 ">
           <img src="images/Logo.svg" alt="Logo.svg" class="FooterLogo">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mt-4 mt-md-0">
           <div class="footerTitle">
             روابط سريعة
           </div>
@@ -249,7 +277,7 @@
             <a href="">خدماتنا</a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4  mt-4 mt-md-0">
           <div class="footerTitle">
             تابعنا
 
