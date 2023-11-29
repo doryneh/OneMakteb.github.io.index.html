@@ -342,7 +342,21 @@ section.Services .card .ServiceTitle {
     font-size: 200px;
     color: #DB9A36;
 }
+.TimeRegistered{
+    font-size: 18px;
+    color: white;
+}
+.Suggestions .card{
+    border: 1px solid #33312A !important;
+    background-color: #33312A !important;
+    color: white !important;
 
+}
+
+.Suggestions .card .ServiceTitle{
+    color: white !important;
+
+}
 /************
 End Services
 *************/
