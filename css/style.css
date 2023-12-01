@@ -564,7 +564,28 @@ header.AboutUsHeader .searchLine {
     box-shadow: none !important;
     outline: 0px !important;
 }
-
+td {
+    vertical-align: middle;
+    text-align: center;
+}
+td,tr {
+    border: 1px solid #33312A;
+}
+td div{
+    text-align: center;
+}
+td button{
+    background-color: #33312A !important;
+}
+thead{
+    background-color: #DB9A36 !important;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+table{
+    border: 1px border #33312A !important;
+}
 /*************************************************************************************************
 **************************************************************************************************
 ******************************************   Media      *****************************************

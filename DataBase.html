@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="">
+
+
+    <title> One Makteb</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo-removebg-preview.png " alt=""
+                    width="75"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex justify-content-center w-100">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="AboutUs.html">عن المشروع</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ContactUs.html">اتصل بنا </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            قائمو منسدلة
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <div class="RegisterButton d-flex d-md-none mb-3"><button type="button" class="btn  "
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">تسجيل الدخول</button></div>
+                </ul>
+            </div>
+            <div class="RegisterButton d-none d-md-flex"><button type="button" class="btn  " data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">تسجيل الدخول</button></div>
+
+        </div>
+    </nav>
+
+    <!--End Navbar-->
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"><b>تسجيل الدخول</b> </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput1" class="form-label"><i class="fa-solid fa-user me-2"></i>
+                                أسم
+                                المستخدم </label>
+                            <input type="text" class="form-control" id="formGroupExampleInput1"
+                                placeholder="  أسم المستخدم ">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label d-flex">
+                                <i class="fa-solid fa-phone me-2"></i> كلمة السر </label>
+                            <input type="password" class="form-control" id="formGroupExampleInput2"
+                                placeholder=" *******">
+                        </div>
+                        <button class="FormBtn" type="submit">دخول</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <section class="DatabaseTable py-md-5 py-3" id="DatabaseTable">
+        <div class="container">
+            <div class="table-responsive">
+                <table class="table table-bordered ">
+                    <thead class="">
+                        <tr class="">
+                            <td>الرقم</td>
+                            <td>الأسم</td>
+                            <td>اسم المستخدم</td>
+                            <td>نوع الصلاحيات</td>
+                            <td>تاريخ التسجيل</td>
+                            <td>آخر دخول</td>
+                            <td>الأدوات</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><div>1</div></td>
+                            <td> <div>مدير النظام</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div><button class="FormBtn d-flex justify-content-center align-items-center py-2" style="border-radius: 10px;"><i class="fa-solid fa-file"></i></button></div></td>
+                        </tr>
+                        <tr>
+                            <td><div>1</div></td>
+                            <td> <div>مدير النظام</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div><button class="FormBtn d-flex justify-content-center align-items-center py-2" style="border-radius: 10px;"><i class="fa-solid fa-file"></i></button></div></td>
+                        </tr>
+                        <tr>
+                            <td><div>1</div></td>
+                            <td> <div>مدير النظام</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div><button class="FormBtn d-flex justify-content-center align-items-center py-2" style="border-radius: 10px;"><i class="fa-solid fa-file"></i></button></div></td>
+                        </tr>
+                        <tr>
+                            <td><div>1</div></td>
+                            <td> <div>مدير النظام</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div><button class="FormBtn d-flex justify-content-center align-items-center py-2" style="border-radius: 10px;"><i class="fa-solid fa-file"></i></button></div></td>
+                        </tr>
+                        <tr>
+                            <td><div>1</div></td>
+                            <td> <div>مدير النظام</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>admin</div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div>19:04:04 17-11-2023 </div></td>
+                            <td><div><button class="FormBtn d-flex justify-content-center align-items-center py-2" style="border-radius: 10px;"><i class="fa-solid fa-file"></i></button></div></td>
+                        </tr>
+                    </tbody>
+    
+                </table>
+            </div>
+         
+        </div>
+    </section>
+
+    <footer class="footer py-md-5 py-3" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <img src="images/Logo.svg" alt="Logo.svg" class="FooterLogo">
+                </div>
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <div class="footerTitle">
+                        روابط سريعة
+                    </div>
+                    <span class="yellowLine"></span>
+                    <div class="FooterLinks">
+                        <a href="AboutUs.html">عن المشروع </a>
+                        <a href=""> تواصل معنا</a>
+                        <a href="">خدماتنا</a>
+                    </div>
+                </div>
+                <div class="col-md-4  mt-4 mt-md-0">
+                    <div class="footerTitle">
+                        تابعنا
+
+                    </div>
+                    <span class="yellowLine"></span>
+
+                    <div class="socialMedia">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+
+                    </div>
+                    <div class="email">exampleemail@gmail.com
+                        <br>
+                        السعودية - السعودية قرب يبيبيب
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid p-0">
+            <div class="Copyright text-center pt-4">
+                جميع الحقوق محفوظة لسنة 2023
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/all.js"></script>
+<script src="js/js.js"></script>
+
+
+</html>
